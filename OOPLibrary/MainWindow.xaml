@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10">
-            <TextBox Name="tbTitle" Text="Book Title" Margin="0,5" TextChanged="tbTitle_TextChanged"/>
+            <TextBox Name="tbTitle" Text="Book Title" Margin="0,5"/>
             <TextBox Name="tbAuthor" Text="Author" Margin="0,5"/>
             <TextBox Name="tbISBN" Text="ISBN" Margin="0,5"/>
             <TextBox Name="tbYear" Text="Publication Year" Margin="0,5"/>
