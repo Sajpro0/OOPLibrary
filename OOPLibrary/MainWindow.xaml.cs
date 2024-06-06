@@ -150,7 +150,7 @@ namespace OOPLibrary
             string str = "";
             foreach (Book book in BookList)
             {
-                str += $"{book.Title}  {book.Author}  {book.ISBN}  {book.Year}  " + ((book is Fiction b1) ? ("Genre: " + b1.Genre) : (book is NonFiction b2) ? ("Field: " + b2.Field) : (book is Comic b3) ? ("Illustrator: " + b3.Illustrator) : "Null");
+                str += $"{book.Title}  {book.Author}  {book.ISBN}  {book.Year}  " + ((book is Fiction b1) ? ("Genre: " + b1.Genre) : (book is NonFiction b2) ? ("Field: " + b2.Field) : (book is Comic b3) ? ("Illustrator: " + b3.Illustrator) : "Null") + Environment.NewLine;
             }
             return str;
         }
